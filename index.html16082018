@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Mi Curriculum Vitae">
+  <meta name="author" content="Pedro Rios i Macias ">
+  <meta name='actualizacion' content="31/07/2018">
+
+  <title>Pedro Rios CV</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/ides.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/demo.css" />-->
+
+  <!--Parte para CSS del SKILL -->
+  <link rel="stylesheet" type="text/css" href="css/herramientas.css" />
+  <link rel="stylesheet" type="text/css" href="css/programas.css" />
+
+
+  <link rel="stylesheet" type="text/css" href="css/style_common.css" />
+  <link rel="stylesheet" type="text/css" href="css/style7.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+
+  <!-- El icono en la pestaña de la Web -->
+
+  <link href="img/Logoweb16x16.png" rel="shortcut icon" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116695115-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-116695115-1');
+  </script>
+
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="nav-link js-scroll-trigger" href="https://statcounter.com/"></a>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+
+        <span class="d-block d-lg-none">Curriculum Vitae de Pedro Rios </span>
+        <span class="d-none d-lg-block">
+<!--
+          <div>
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="zoom" src="img/foto5.jpg" alt="">
+            <a class="nav-link js-scroll-trigger" href="download/CV-PedroRios.pdf" download="CV-PedroRios.pdf"</a>
+          </div>-->
+
+          <div class="view view-seventh">
+              <img src="img/FotoWeb.png" heig />
+              <div class="mask">
+                  <h3>descargar el CV en PDF.</h3>
+                  <a href="download/CV-PedroRios.pdf" download="CV-PedroRios.pdf" class="info">P U L S A</a>
+              </div>
+          </div>
+        </span>
+      </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li>
+
+        </li>
+        <li class="nav-item">
+          <br>
+          <br>
+          <a class="nav-link js-scroll-trigger" href="#about" id="m1">Quien Soy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience" id="m2">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education" id="m3">Formacion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skill" id="m4">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests" id="m5">Competencias</a>
+        </li>
+
+        <div>
+          <br>
+          <span class="subheading mb-5" style="color:#D0E2F6; cursor: pointer;" id="catala" >CATALAN - </span>
+          <span class="subheading mb-5" style="color:#D0E2F6; cursor: pointer;" id="castellano">CASTELLANO</span>
+        </div>
+        <br>
+      <!--
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="download/CV-PedroRios.pdf" download="CV-PedroRios.pdf"  id="m6">Descargar <br> Curriculum Vitae en PDF</a>
+
+      </li> -->
+      </ul>
+
+
+    </div>
+
+  </nav>
+
+
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+        <h1 class="mb-0">Pedro
+            <span class="text-primary">Rios i Macias</span>
+          </h1>
+        <!--<div class="subheading mb-5">Calle Mila, 20, Sobre Atico · Badalona 08917 Barcelona ·<a href="tel:678 99 53 25">Movil 678 99 53 25 <img src="img/whatsapplogo.png" height="18px" width="18px"></a> ·
+          <a href="mailto:riosmacias@gmail.com?Subject=Mensaje desde la Web PedroRios.cat">riosmacias@gmail.com <img src="img/mail-icon.png" height="18px" width="18px" ></a>
+        </div>-->
+        <div class="subheading mb-5">· Barcelona ·<a href="tel:678 99 53 25">Movil 678 99 53 25 <img src="img/whatsapplogo.png" height="18px" width="18px"></a> ·
+          <a href="mailto:riosmacias@gmail.com?Subject=Mensaje desde la Web PedroRios.cat">riosmacias@gmail.com <img src="img/mail-icon.png" height="18px" width="18px" ></a>
+        </div>
+        <p class="mb-5" id="f1">Experiencia en la dirección de equipos Help-Desk, Operadores y Atención al cliente. Tengo una gran capacidad para enfocar y organizar grupos manteniendo un buen ambiente de trabajo.<br> <br> Facilidad para desarrollar operativas eficientes.<br> <br>
+          Trabajos de programación, en diferentes Lenguajes. Desde la planificación hasta la finalización del Proyecto. <br> <br>
+        Actualmente estoy interesado en formar parte de un equipo de trabajo en el Desarrollo de Aplicaciones web o Java. Son áreas profesionales que me fascinan y en las que me encuentro muy cómodo. También me gustaría explorar otras áreas como el SEO que ya estudio o los comercios virtuales, entre otras tecnologías. <br><br>
+        Me considero una persona extrovertida y proactiva que siempre busca conseguir sus objetivos. <br>
+
+       </p>
+
+      </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <div class="my-auto">
+        <h2 class="mb-5" id="m7">Experiencia</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" id="exp-tl-5">Desarrollo Java, Script Bash</h3>
+            <div class="subheading mb-3"><!--<a href="https://www.viewnext.com/">--><img class="sb-icon" src="img/viewnext.png" width="100px" height="50px" alt=""> </a> </div>
+            <p id="exp-leyenda-5">Desarrollo y Mantenimineto del los Projectos Java existentes <br>
+                Lenguajes de programación: Java, Script Bash <br>
+                Estándares: Ide Eclipse, SVN, Git<br>
+            </p> <br>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary" id="exp-data-5">Junio/2018-Actualidad</span><br>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" id="exp-tl-4">Desarrollo Aplicaciones WEB Front-end Back-end</h3>
+              <div class="subheading mb-3"><!--<a href="https://www.viewnext.com/">--><img class="sb-icon" src="img/Self-Employed.png" width="100px" height="50px" alt=""> </a> </div>
+            <!--<div class="subheading mb-3">SELF-EMPLOYED</div>-->
+            <p id="exp-leyenda-4">Retoque Grafico: Photoshop. <br>
+                Diseño Web: Bootstrap, WordPress. <br>
+                Lenguajes de programación: HMTL5, CSS3, JavaScript, Jquery, PHP, SQL, XML, Java, Android, Mit App Inventor 2. <br>
+                Estándares de programación WEB: Estricto seguimiento de las recomendaciones de w3schools. <br>
+                Atención Personalizada al clientes.<br>
+                Hosting & Posicionamiento SEO <br>
+            </p> <br>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary" id="exp-data-4">Actualmente</span><br>
+          </div>
+        </div>
+
+      </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" id="exp-tl-1">Soporte y Desarrollo</h3>
+            <div class="subheading mb-3"><!--<a href="https://www.viewnext.com/">--><img class="sb-icon" src="img/Zemsania.png" width="100px" height="50px" alt=""> </a> </div>
+            <!--<div class="subheading mb-3" >Zemsania, S.L.</div>-->
+            <p id="exp-leyenda-1">Soporte a usuario en Oficina y Manos remotas. <br>
+               Maquetación de Equipos Informáticos. <br>
+               Colaboración en distintos proyectos de programación. <br>
+               Lenguajes Java, HTML, CSS, JS, PHP, MySQL.
+              </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary" id="exp-data-1">Febrero/2014 - Mayo/2016</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" id="exp-tl-2" >Coordinador Operaciones IBM</h3>
+            <div class="subheading mb-3"><!--<a href="https://www.viewnext.com/">--><img class="sb-icon" src="img/IBM.png" width="100px" height="50px" alt=""> </a> </div>
+            <!--<div class="subheading mb-3">Zemsania, S.L.</div>-->
+            <p id="exp-leyenda-2">Coordinador Equipo Operadores 24x7.<br>
+                Implementación de horarios y turnos de trabajo. <br>
+                Monitorización Redes con Nagios. <br>
+                Desarrollo e Implementación de procedimientos habituales de trabajo. <br>
+                Diseño de aplicaciones para el control stocks cintas clientes. <br>
+                Supervisión Gestión y Mantenimiento del stock de servidores instalados en el CPD. <br>
+                Control Acceso Personal CPD.
+              </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary" id="exp-data-2" >Mayo/2010 - Febrero/2014</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" id="exp-tl-3">Responsable Help-Desk y Microinformática</h3>
+              <div class="subheading mb-3"><!--<a href="https://www.viewnext.com/">--><img class="sb-icon" src="img/imaxel.png" width="100px" height="50px" alt=""> </a> </div>
+            <!--<div class="subheading mb-3">Imaxel Labs. </div>-->
+            <p id="exp-leyenda-3">
+              Responsable del Help-Desk, Usuarios Locales y Clientes en Remoto. <br>
+              Compras, Integración y configuración Equipos Informáticos. <br>
+              Gestión de Incidencias entre Clientes finales y el dpto. De Desarrollo..<br>
+              Documentación del Software desarrollado. <br>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary" id="exp-data-3">Abril/2006 - Septiembre/2007</span>
+          </div>
+        </div>
+
+
+
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+      <div class="my-auto">
+        <h2 class="mb-5" id="formacion">Formación</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0" id="estudios-1">Grado Superior Desarrollo Aplicaciones WEB</h3>
+            <div class="subheading mb-3" id="centro-1">NetMind </div>
+          <div>
+            <h3 class="mb-0" id="estudios-2">Desarrollo de Aplicaciones JAVA</h3>
+            <div class="subheading mb-3" id="centro-2">Tàdel Formación</div>
+          <div>
+            <h3 class="mb-0" id="estudios-3">Desarrollo JAVA, Programación Moviles Avanzada XML</h3>
+            <div class="subheading mb-3" id="centro-3">CEPI-BASE</div>
+          </div>
+          <div>
+            <h3 class="mb-0" id="estudios-4">FP-II Informática de Gestión</h3>
+            <div class="subheading mb-3">C.E. Roca</div>
+          </div>
+          <div>
+            <h3 class="mb-0" id="estudios-5">Formacion continuada desarrollo</h3>
+            <div class="subheading mb-3">
+              <p id="estudios-51">  Mit App Inventor 2 <br>
+                Certificado SoloLearn SQL Fundaments course <br>
+                Posicionamiento SEO & Hosting<br>
+                Angular<br>
+                  Python <br>
+            Sass <br>
+            SQL con Oracle 11g <br>
+            C y C++ </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skill" class="main">
+
+      <div class="my-auto">
+        <h2 class="mb-5">Skills</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div id="sb-container2" class="sb-container2">
+
+                <div>
+                    <img class="sb-icon" src="img/mit.png" width="70px" height="85px" alt="">
+                  <h4><span>M I T</span></h4>
+                  <h4><span>App Inventor 2</span></h4>
+                </div>
+                <div>
+                    <img class="sb-icon" src="img/Android.png" width="70px" height="85px" alt="">
+                  <h4><span>android</span></h4>
+                </div>
+                <div>
+                    <img class="sb-icon" src="img/java.png" width="70px" height="85px" alt="">
+                  <h4><span>JAVA</span></h4>
+                </div>
+                <div>
+                    <img class="sb-icon" src="img/xml.png" width="70px" height="85px" alt="">
+                  <h4><span>XML</span></h4>
+                </div>
+                <div>
+                    <img class="sb-icon" src="img/sql.png" width="70px" height="85px" alt="">
+                  <h4><span>SQL</span></h4>
+                </div>
+                <div>
+                    <img class="sb-icon" src="img/php.png" width="70px" height="85px" alt="">
+                  <h4><span>PHP</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/jquery.png" width="70px" height="65px" alt="">
+                  <h4><span>JQUERY</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/js.png" width="70px" height="65px" alt="">
+                  <h4><span>JS</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/css3.png" width="50px" height="65px" alt="">
+                  <h4><span>CSS3</span></h4>
+                  </div>
+                <div>
+                  <img class="sb-icon" src="img/html.png" width="50px" height="65px" alt="">
+                  <h4><span>HTML5</span></h4>
+
+                </div>
+                <div>
+                  <h4><span>programming language</span></h4>
+                  <span class="sb-toggle">Haz Click to open/close</span>
+                  <!--<span class="sb-toggle">Ver Lenguajes</span>          -->
+
+                </div>
+
+
+                <!-- -->
+
+
+              </div>
+            </div>
+            <div class="col">
+              <div id="sb-container" class="sb-container">
+
+                <div>
+                  <img class="sb-icon" src="img/seo.png" width="60px" height="65px" alt="">
+                  <h4><span>S E O</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/git.png" width="60px" height="65px" alt="">
+                  <h4><span>GitHub</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/linux.png" width="60px" height="65px" alt="">
+                  <h4><span>Linux</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/windows.png" width="60px" height="65px" alt="">
+                  <h4><span>Windows</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/xampp.png" width="60px" height="65px" alt="">
+                  <h4><span>XAMPP</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/ico-ps.png" width="60px" height="65px" alt="">
+                  <h4><span>Photoshop</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/ico-wordpress.png" width="60px" height="65px" alt="">
+                  <h4><span>WordPress</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/ico-bootstrap.png" width="60px" height="65px" alt="">
+                  <h4><span>BootStrap</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/id-st3.png" width="60px" height="65px" alt="">
+                  <h4><span>Id Sublime text 3</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/id-Eclipse2.png" width="60px" height="70px" alt="">
+                  <h4><span>Id Eclipse</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/id-Net3.png" width="60px" height="65px" alt="">
+                  <h4><span>Id NetBeans</span></h4>
+                </div>
+                <div>
+                  <img class="sb-icon" src="img/id-Atom.png" width="60px" height="65px" alt="">
+                  <h4><span>Id Atom</span></h4>
+                </div>
+                <div>
+                  <h4><span>TOOLS</span></h4>
+                  <span class="sb-toggle">Haz Click to open/close</span>
+                  <!--<span class="sb-toggle">Ver Lenguajes</span>          -->
+
+                </div>
+
+
+      				</div><!-- sb-container -->
+          </div>
+
+        </div>
+
+
+      </div>
+
+      </div>
+
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+      <div class="my-auto">
+        <h2 class="mb-5" id="Interes-Lot">COMPETENCIAS</h2>
+          <div class="col">
+            <!--img src="img/competencias-cas.jpg" id="compete" width="900px" height="500px">-->
+              <img src="img/competencias-cas.jpg" id="compete">
+        </div>
+
+
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+  <!-- Mis JS para los idiomas -->
+  <script src="js/catala.js"></script>
+  <script src="js/castellano.js"></script>
+
+  <!-- Default Statcounter code for PedroRios
+  http://www.pedrorios.cat -->
+  <script type="text/javascript">
+  var sc_project=11675489;
+  var sc_invisible=1;
+  var sc_security="9df59f38";
+  </script>
+  <script type="text/javascript"
+  src="https://www.statcounter.com/counter/counter.js"
+  async></script>
+  <noscript><div class="statcounter"><a title="Web Analytics"
+  href="http://statcounter.com/" target="_blank"><img
+  class="statcounter"
+  src="//c.statcounter.com/11675489/0/9df59f38/1/" alt="Web
+  Analytics"></a></div></noscript>
+  <!-- End of Statcounter Code -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.swatchbook.js"></script>
+<script type="text/javascript">
+$(function() {
+
+  $( '#sb-container' ).swatchbook( {
+    // number of degrees that is between each item
+    angleInc : 15,
+    neighbor : 15,
+    // if it should be closed by default
+    initclosed : true,
+    // index of the element that when clicked, triggers the open/close function
+    // by default there is no such element
+    closeIdx : 12
+  } );
+
+});
+
+</script>
+
+
+<script type="text/javascript">
+$(function() {
+
+  $( '#sb-container2' ).swatchbook( {
+    // number of degrees that is between each item
+    angleInc : 15,
+    neighbor : 15,
+    // if it should be closed by default
+    initclosed : true,
+    // index of the element that when clicked, triggers the open/close function
+    // by default there is no such element
+    closeIdx : 10
+  } );
+
+});
+
+</script>
+</body>
+
+</html>

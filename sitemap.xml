@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://pedrorios.cat/download/CV-PedroRios.pdf</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://pedrorios.cat/tel:678 99 53 25</loc>
+  <priority>0.5</priority>
+  <changefreq>monthly</changefreq>
+</url>

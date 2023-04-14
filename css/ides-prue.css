@@ -1,0 +1,15 @@
+#zoom {
+  background:url("../img/fotokk.jpg") no-repeat;
+  width: 350px;
+  height: 350px;
+
+}
+
+#zoom:hover {
+  transform: scale(2);
+  transition: transform .3s;
+  background:url("../img/fotokkk.jpg") no-repeat;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+}

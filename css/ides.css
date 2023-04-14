@@ -1,0 +1,21 @@
+#zoom {
+
+  transition: transform .3s;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+
+#zoom:hover {
+  transform: scale(2);
+  // background:url("../img/fotokkk.jpg") no-repeat;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+#skillimg{
+  width: 50px;
+  height: 50px;
+}
