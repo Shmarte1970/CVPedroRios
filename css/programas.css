@@ -270,4 +270,51 @@ span.sb-icon:before {
     cursor: pointer;
 }
 
+:root{
+	--tiempo-transicion:0.3s;
+	--cada-item:28px;
+	--cantidad-opciones-descarga:0;
+}
+
+
+
+.nav__item ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: 16px;
+
+}
+
+.nav-item_hight{
+	margin-top: 10px;
+}
+
+
+.nav__item ul ul{
+	height: 0px;
+	overflow: hidden;
+	transition: var(--tiempo-transicion);
+}
+
+.nav__item ul li:hover ul{
+	height: calc(var(--cantidad-opciones-descarga)* var(--cada-item));
+	overflow: hidden;
+}
+
+
+.nav__item ul a{
+	box-sizing: border-box;
+	color: #CED9E5;
+	background: transparent;
+	display: block;
+	width:100%;
+	padding: 0px;
+}
+
+
+
+
+
+
 

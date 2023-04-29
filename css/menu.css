@@ -1,0 +1,14 @@
+.menu_cv nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu_cv ul a{
+    color: aliceblue;
+    border-bottom: 1 px solid;
+    background: #121212;
+    display: block;
+    width: 100%;
+    padding: 6px 10px;
+}
