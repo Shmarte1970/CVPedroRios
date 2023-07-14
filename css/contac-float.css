@@ -46,6 +46,29 @@ body {
 	background: rgba(94,125,227, .9);
 }
 
+.boton-contacto-menu{
+	padding: 2px 5px 25px 5px;
+	margin-top: 15px;
+	height: 20px;	
+	border: none;
+	color: #bcd2ed;
+	background: rgb(122, 152, 185, 0.8);
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	cursor: pointer;
+	transition: .3s ease all;
+	cursor: pointer;
+}
+
+.boton-contacto-menu:hover{
+	color:#dde5ed;
+
+}
+
+
+
+
 /* ------------------------- */
 /* POPUP */
 /* ------------------------- */
