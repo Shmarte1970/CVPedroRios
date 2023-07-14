@@ -43,7 +43,9 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
   rel="stylesheet">
 <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
 <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
 <!-- Custom styles for this template -->
@@ -60,7 +62,12 @@
 <link rel="stylesheet" type="text/css" href="css/style7.css" />
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet'
   type='text/css'>
+<link rel="stylesheet" href="./css/contact.css">
+<link rel="stylesheet" href="./css/contac-float.css">
 <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+
+
+
 
 <!-- El icono en la pestaña de la Web -->
 
@@ -132,11 +139,6 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests" id="m5">Competencias</a>
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="contacto.html" id="m6">Contacto</a>
-        </li>
-
         <li class="nav_item nav__item">
           <nav id="ArielPlaza_s">
             <ul>
@@ -189,6 +191,7 @@
 
 
 
+
   <div class="container-fluid p-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
@@ -200,12 +203,11 @@
           <a href="mailto:xxxxxxxxxxx@gmail.com?Subject=Mensaje desde la Web PedroRios.cat">xxxxxxxxxx@gmail.com <img src="img/mail-icon.png" height="18px" width="18px" ></a>
         </div>-->
 
-        <div class="subheading mb-5"><!--· Barcelona ·<a href="https://wa.me/xxxxxxxxxxx" target="_blank">Movil xxx xx xx xx
-            25&nbsp;&nbsp;&nbsp;
-            <img src="img/whatsapplogo.png" height="18px" width="18px"></a> ·-->
-          <a style="margin-left: 209px;" href="contacto.html">Contacto&nbsp;&nbsp;&nbsp;<img src="img/mail-icon.png"
-              height="18px" width="18px"></a>
-          · <a href="https://www.linkedin.com/in/prm360kbcn">&nbsp;<img src="img/in.png" width="90px" height="20px"></a>
+        <div style="margin: 25px 0 0 210px;">
+
+          <button id="btn-abrir-popup" class="btn-abrir-popup ">Contacto</button>
+
+          · <a href="https://www.linkedin.com/in/prm360kbcn">&nbsp;<img src="img/in.png" width="90px" height="30px"></a>
         </div>
         <p class="mb-5" id="f1">Experiencia en la dirección de equipos Help-Desk, Operadores y Atención al cliente.
           Tengo una gran capacidad para enfocar y organizar grupos manteniendo un buen ambiente de trabajo.<br> <br>
@@ -221,6 +223,30 @@
 
         </p>
 
+      </div>
+    </section>
+
+    <section>
+      <div class="overlay " id="overlay">
+        <div class="popup" id="popup">
+          <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+          <h1>Contactar con Pedro Rios</h1>
+          <br>
+          <form action="https://formsubmit.co/96bc22c75307cc0356c7004e8fb9e5da" method="POST">
+            <div class="contenedor-inputs">
+              <input type="text" name="name" placeholder="Nombre">
+              <input type="text" name="mail" placeholder="Email">
+              <input type="text" name="phone" placeholder="Teléfono">
+              <textarea type="text" name="message" placeholder="Mensaje"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar" id="boton">
+            <input type="hidden" name="_next" value="https://cvpedrorios.netlify.app/">
+            <input type="hidden" name="_captcha" value="false">
+
+
+
+        </div>
       </div>
     </section>
 
@@ -734,6 +760,10 @@
 
 
       </div>
+
+
+
+
     </section>
 
   </div>
@@ -741,6 +771,8 @@
   <!-- JavaScript WebChat
 
   <script src="//code.jivosite.com/widget/KKacNTafbd" async></script> -->
+
+  <script src="./js/popup.js"></script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -815,6 +847,8 @@
     });
 
   </script>
+
+
 
   <!-- Default Statcounter code for Netlify CV Pedro Rios
 https://cvpedrorios.netlify.app/ -->

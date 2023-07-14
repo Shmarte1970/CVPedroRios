@@ -1,16 +1,12 @@
-body {
-    background-color: white;
-    margin: 0;
-    font-family: monospace;
-}
 
-h1{
+
+/*h1{
     text-align: center;
     color: #7A98B9;
     margin: 0;
     font-size: 30px;
-    margin-top: 45px;
-}
+    margin-top: 5px;
+}*/
 
 form {
     width: 450px;
@@ -33,19 +29,30 @@ input, textarea {
 }
 
 textarea {
-    min-height: 100px;
-    max-height: 200px;
+    min-height: 50px;
+    max-height: 75px;
     min-width: 100%;
 }
 
 #boton {
     padding: 20px;
     border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .3s ease all;
 }
+
+#boton:hover{
+    background: rgba(216, 237, 237, 0.9)
+}
+
 
 #boton:hover{
     cursor: pointer;
 }
+
+
+
 
 
 

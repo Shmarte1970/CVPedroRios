@@ -4,7 +4,6 @@ document.getElementById('catala').onclick = function(){
   document.getElementById('m3').innerHTML ="formació";
   document.getElementById('m4').innerHTML ="Skill";
   document.getElementById('m5').innerHTML ="Competencia";
-  document.getElementById('m6').innerHTML ="CONTACTE";
   document.getElementById('catala').innerHTML ="CATALÀ - ";
   document.getElementById('castellano').innerHTML ="CASTELLÀ";
   // document.getElementById('english').innerHTML='ENGLISH';/
