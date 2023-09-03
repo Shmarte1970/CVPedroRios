@@ -4,8 +4,7 @@ document.getElementById('catala').onclick = function(){
   document.getElementById('m3').innerHTML ="formació";
   document.getElementById('m4').innerHTML ="Skill";
   document.getElementById('m5').innerHTML ="Competencia";
-  document.getElementById('m6').innerHTML ="Contacte";
-  document.getElementById('m66').innerHTML ="Contacte";
+  document.getElementById('m6').innerHTML ="Contacte";  
   document.getElementById('catala').innerHTML ="CATALÀ - ";
   document.getElementById('castellano').innerHTML ="CASTELLÀ";
   // document.getElementById('english').innerHTML='ENGLISH';/
@@ -14,12 +13,21 @@ document.getElementById('catala').onclick = function(){
   document.getElementById('exp-tl-1').innerHTML ="Suport i Desenvolupament";
   document.getElementById('exp-tl-62').innerHTML ="Tècnic Informàtic";
   document.getElementById('exp-tl-61').innerHTML ="Sagrada Familia Tècnic Informàtic";
-  document.getElementById('exp-tl-60').innerHTML ="Tècnic Suport TI";
+  document.getElementById('exp-tl-80').innerHTML =" Desenvolupador ERP FULL-STACK";
+  document.getElementById('exp-tl-70').innerHTML ="Desenvolupador ERP AXIONAL";
+  
   document.getElementById('exp-tl-50').innerHTML ="Tècnic Informàtic";
+
+  document.getElementById('exp-leyenda-80').innerHTML ="Desenvolupament ERP pròpia de l'Empresa"+"<br>"+"Desenvolupament Querys SQL"+"<br>"+"Desenvolupament del Projecte ERP"+"<br>"+"Desenvolupament Full Stack (React Node-Express)"+"<br>"+"Administració AWS";
+
+  document.getElementById('exp-leyenda-70').innerHTML ="Resolució d'incidències usuaris ERP Axional"+"<br>"+"Desenvolupament de Noves opcions a l'ERP amb XSQL"+"<br>"+"Desenvolupament de Querys XSQL - SQL"+"<br>"+"Resolució Bugs a ERP"+"<br>"+"Gestió d'incidències amb GIRA";
+
   document.getElementById('exp-leyenda-62').innerHTML ="Maquetació d'Equips, Configuració VPN (Teletreball)"+"<br>"+"HelpDesk, Configuració d'impresores i Scanners, OneDrive, Outlook"+"<br>"+"Active Directory."+"<br>"+"Seguiment incidències con Software Remdy";
-  document.getElementById('exp-leyenda-61').innerHTML ="Configuració & Maquetació d'Equips."+"<br>"+"HelpDesk, Configuració d'impresores i Scanners, OneDrive, Outlook"+"<br>"+"Active Directory."+"<br>"+"Seguiment incidències con Software Remdy";
-  document.getElementById('exp-leyenda-60').innerHTML ="Resolució d'Incidencias usuaris ERP AXIONAL"+"<br>"+"Desenvolupament Querys XSQL-SQL"+"<br>"+"Resolució Bugs en ERP"+"<br>"+"Gestió d'Incidencias amb GIRA";
+
   document.getElementById('exp-leyenda-54').innerHTML ="Consultes Oracle (SQL)"+"<br>"+"Ofimàtica, Instal·lació i manteniment de PC'S i Xarxes"+"<br>"+"Disseny i Manteniment web"+"<br>"+"Atenció a l'Usuari."+"<br>"+"Instalacionse Teletreball i Atenció a l'Usuari Teletreball."+"<br>"+"Eines de disseny i Fotografia Digital.";
+
+  document.getElementById('exp-leyenda-61').innerHTML ="Configuració & Maquetació d'Equips."+"<br>"+"Configuració de Treball Remot Forticlient"+"<br>"+"Reubicació d'usuaris, Actualització de llicències"+"<br>"+"Mantenimineto de Impresoras."+"<br>"+"Desenvolupament App. HTML, CSS, JS"+"<br>"+"Eines Gestion Tickets";
+
   document.getElementById('exp-data-55').innerHTML ="2022-2023";
   document.getElementById('exp-data-1').innerHTML = "Febrer/2014 - Maig/2016"
   document.getElementById('exp-leyenda-1').innerHTML ="Suport a usuaris d'Oficina i mans remotes."+"<br>"+"Maquetación d'Equips Informàtics"+"<br>"+"Col·laboració en diferents projectes de programació."+"<br>"+"Llenguatges Java, HTML, CSS, JS, PHP, MySQL.";
