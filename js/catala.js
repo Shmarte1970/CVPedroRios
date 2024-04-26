@@ -36,7 +36,7 @@ document.getElementById("catala").onclick = function () {
   document.getElementById("exp-leyenda-80").innerHTML =
     "Anàlisi per al desenvolupament del propi ERP de l'empresa" +
     "<br>" +
-    "Desenvolupament de taules i consultes SQL" +
+    "Desenvolupament de taules i consultes SQL + Triggers" +
     "<br>" +
     "Desenvolupament Full Stack (Angular Node-Express)" +
     "<br>" +
